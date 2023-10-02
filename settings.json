@@ -1,23 +1,30 @@
 {
-    "workbench.colorTheme": "Palenight Theme",
     "telemetry.telemetryLevel": "off",
     "workbench.productIconTheme": "fluent-icons",
     "symbols.hidesExplorerArrows": false,
     "workbench.iconTheme": "symbols",
     "editor.fontSize": 14,
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.formatOnSave": true,
-    "editor.guides.indentation": false,
+    "editor.guides.indentation": true,
     "indenticator.width": 0.1,
     "indenticator.color.dark": "rgba(255,255,255,0.1)",
     "editor.matchBrackets": "never",
-    "editor.fontFamily": "IntoneMono Nerd Font, Menlo, Monaco, 'Courier New', monospace",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
-    "explorer.confirmDelete": false
+    "black-formatter.args": [
+        "--line-length",
+        "119"
+    ],
+   
+    "workbench.colorTheme": "Palenight Theme",
 }
